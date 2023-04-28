@@ -1,0 +1,44 @@
+body {
+    font-family: monospace;
+    background-color: hsl(352, 10%, 95%);
+    ;
+}
+
+table {
+    border: 3px solid hsl(352, 52%, 79%);
+    border-collapse: collapse;
+    position: relative;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(130, 85%, 24%);
+    text-shadow: 1px 1px black;
+}
+
+caption {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+th {
+    background-color: hsl(352, 52%, 79%);
+}
+
+.row-head {
+    background-color: hsl(352, 52%, 79%);
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: hsl(352, 52%, 95%);
+}
