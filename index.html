@@ -2,78 +2,99 @@
 <html>
 
 <head>
-    <title>HTML, CSS Cheat Sheet</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Cozy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <h1>HTML Table</h1>
-    <table>
-        <caption>Table Tags</caption>
-        <thead>
-            <tr>
-                <th>Tag</th>
-                <th>Name</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="row-head">&lt;table&gt;</td>
-                <td>Table</td>
-                <td>The wrapper element for all HTML tables.</td>
-            </tr>
-            <tr>
-                <td class="row-head">&lt;thead&gt;</td>
-                <td>Table Head</td>
-                <td>The set of rows defining the column headers in a table.</td>
-            </tr>
-            <tr>
-                <td class="row-head">&lt;tbody&gt;</td>
-                <td>Table Body</td>
-                <td>The set of rows containing actual table data.</td>
-            </tr>
-            <tr>
-                <td class="row-head">&lt;tr&gt;</td>
-                <td>Table Row</td>
-                <td>The table row container.</td>
-            </tr>
-            <tr>
-                <td class="row-head">&lt;td&gt;</td>
-                <td>Table Data</td>
-                <td>The table row container.</td>
-            </tr>
-            <tr>
-                <td class="row-head">&lt;tfoot&gt;</td>
-                <td>Table Foot</td>
-                <td>The set of rows defining the footer in a table.</td>
-            </tr>
-        </tbody>
-    </table>
+    <header>
+        <img id="logo" src="img-tea-cozy-logo.webp" alt="Cozy Tea Logo" title="Cozy Tea Logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#mission">Mission </a>
+                </li>
+                <li>
+                    <a href="#tea-of-the-month">Featured Tea </a>
+                </li>
+                <li>
+                    <a href="#location">Locations</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <table>
-        <caption>Table Attributes</caption>
-        <thead>
-            <tr>
-                <th>Attribute</th>
-                <th>Name</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="row-head">colspan</td>
-                <td>Column Span</td>
-                <td>Defines how many columns a td element should span. &lt;td colspan="2"&gt;</td>
-            </tr>
-            <tr>
-                <td class="row-head">rowspan</td>
-                <td>Row Span</td>
-                <td>Defines how many rows a td element should span. &lt;td rowspan="2"&gt;</td>
-            </tr>
-        </tbody>
-    </table>
+    <main>
+
+        <section class="mission" id="mission">
+            <div class="mis-descrip">
+                <h2 class="mis">Our Mission</h2>
+                <h4 class="mis">Handpick, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic
+                    Tea</h4>
+            </div>
+        </section>
+        <section class="tea-of-the-month" id="tea-of-the-month">
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at The Tea Cozy?</h4>
+            <div class="img">
+                <figure>
+                    <img src="img-berryblitz.webp" alt="Berry tea" title="Red berries tea">
+                    <figcaption>Fall Berry Blitz Tea</figcaption>
+                </figure>
+                <figure>
+                    <img src="img-spiced-rum.webp" alt="Tea in a wooden box" title="Tea in a wooden box">
+                    <figcaption>Spiced Rum Tea</figcaption>
+                </figure>
+                <figure>
+                    <img src="img-donut.webp" alt="Homemade donut" title="Homemade donut">
+                    <figcaption>Seasonal Donats</figcaption>
+                </figure>
+                <figure>
+                    <img src="img-myrtle-ave.webp" alt="Tea in a cup" title="Tea in a white cup">
+                    <figcaption>Myrtle Ave Tea</figcaption>
+                </figure>
+                <figure>
+                    <img src="img-bedford-bizarre.webp" alt="Tea and suger" title="Tea and suger">
+                    <figcaption>Bedford Bizarre Tea</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="location" id="location">
+            <h2>Locations</h2>
+            <div class="address-box">
+                <div id="ad1">
+                    <h3>Downtown</h3>
+                    <p>384 West 4th St</p>
+                    <p>Suite 108</p>
+                    <p>Portland, Maine</p>
+                </div>
+
+                <div id="ad2">
+                    <h3>East Bayside</h3>
+                    <p>3433 Phisherman's Avenue</p>
+                    <p>(Northwest Corner)</p>
+                    <p>Portland, Maine</p>
+                </div>
+
+                <div id="ad3">
+                    <h3>Oakdale</h3>
+                    <p>515 Crescent Avenue</p>
+                    <p>Second Floor</p>
+                    <p>Portland, Maine</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>The Tea Cozy</h2>
+            <h5>contact@theteacozy.com</h5>
+            <h5>971-555-8904</h5>
+            <br>
+            <p id="left">copyright The The Cozy 2017</p>
+        </footer>
+    </main>
+
 </body>
 
-</html>
+</html
